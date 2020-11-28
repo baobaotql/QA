@@ -65,7 +65,7 @@ if __name__ == '__main__':
     resultFile = "predictRst.score"
     saveFile = "newModel/savedModel"
     trainedModel = "trainedModel/savedModel"
-    embeddingFile = "word2vec/zhwiki_2017_03.sg_50d.word2vec"
+    embeddingFile = "data/zhwiki_2017_03.sg_50d.word2vec"
     embeddingSize = 50  # 词向量的维度
 
     dropout = 1.0
